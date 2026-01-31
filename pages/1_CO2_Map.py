@@ -52,7 +52,7 @@ def load_co2_wide_to_stop_table(path: Path) -> pd.DataFrame:
     if "Start" in df.columns:
         df = df.rename(columns={"Start": "0.0"})
     if "Location" not in df.columns:
-        raise ValueError("venice_co2.csv must contain a column named 'Location'.")
+        raise ValueError("raw_venice_co2.csv must contain a column named 'Location'.")
 
     long = df.melt(id_vars=["Location"], var_name="stop_id", value_name="value")
     wide = long.pivot_table(index="stop_id", columns="Location", values="value", aggfunc="first").reset_index()
@@ -234,7 +234,7 @@ def build_map(merged: pd.DataFrame, stops: pd.DataFrame) -> folium.Map:
 
 # -------------------- main --------------------
 d = data_dir()
-co2_file = d / "venice_co2.csv"
+co2_file = d / "raw_venice_co2.csv"
 
 stops_file = None
 for name in ["venice_lat_lon.csv"]:
@@ -246,7 +246,7 @@ for name in ["venice_lat_lon.csv"]:
 if not co2_file.exists() or stops_file is None:
     st.error(
         "Missing data files. Put these in a folder named 'data':\n"
-        "- venice_co2.csv\n"
+        "- raw_venice_co2.csv\n"
         "- venice_lat_lon.csv"
     )
     st.stop()
