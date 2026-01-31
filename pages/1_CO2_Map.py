@@ -237,7 +237,7 @@ d = data_dir()
 co2_file = d / "venice_co2.csv"
 
 stops_file = None
-for name in ["venice_stops_latlon_dedup_updated_FINAL.csv", "venice_latlon.csv"]:
+for name in ["venice_lat_lon.csv"]:
     p = d / name
     if p.exists():
         stops_file = p
@@ -247,7 +247,7 @@ if not co2_file.exists() or stops_file is None:
     st.error(
         "Missing data files. Put these in a folder named 'data':\n"
         "- venice_co2.csv\n"
-        "- venice_stops_latlon_dedup_updated_FINAL.csv (preferred) OR venice_latlon.csv"
+        "- venice_lat_lon.csv"
     )
     st.stop()
 
