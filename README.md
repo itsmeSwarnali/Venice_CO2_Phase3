@@ -38,4 +38,5 @@ The repository includes the dataset files required to reproduce the results loca
 How to Run Locally
 
   Install dependencies: pip install -r requirements.txt
+  
   Start the Streamlit multipage app: streamlit run Home.py
