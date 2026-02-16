@@ -120,7 +120,7 @@ if not x_candidates:
 
 x = st.selectbox("2) Choose the context variable (X)", x_candidates, index=0)
 
-# Sidebar filters (compact, no time/date)
+# Sidebar filters
 preferred = [
     "Type of environment","Quantity of people","Wind","Vehicular traffic (cars, boats)",
     "Connection with water","Environmental noise","Air smell - quality",
