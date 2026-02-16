@@ -1,6 +1,3 @@
-# Ins_Post_Ridge_v2.py
-# Ridgeline (Streamlit + Plotly) — styled to match your main boxplot (white bg, #111 text, soft grid)
-
 import io
 import numpy as np
 import pandas as pd
@@ -128,8 +125,7 @@ if len(d) == 0:
 topcats = d[cat_col].value_counts().head(max_groups).index.tolist()
 d = d[d[cat_col].isin(topcats)].copy()
 
-# Order by median for story (same philosophy as your other plots)
-order = topcats  # frequency order (matches your main boxplot)
+order = topcats  
 
 # X grid
 xmin, xmax = np.nanpercentile(d[co2_col], 1), np.nanpercentile(d[co2_col], 99)
@@ -197,7 +193,7 @@ for i, cat in enumerate(order):
         showlegend=False,  # y-axis labels do the job (cleaner for posts)
     ))
 
-    # Median marker (black, consistent with your boxplot borders/text)
+
     med = float(np.nanmedian(vals)) if np.isfinite(np.nanmedian(vals)) else None
     if med is not None:
         fig.add_trace(go.Scatter(
@@ -209,8 +205,6 @@ for i, cat in enumerate(order):
             hoverinfo="skip"
         ))
 
-# ------------------ Style (MATCHES your px.box styling)
-# ------------------
 fig.update_layout(
     template="plotly_white",
     plot_bgcolor="white",
