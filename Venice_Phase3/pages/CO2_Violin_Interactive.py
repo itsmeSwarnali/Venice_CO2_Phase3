@@ -1,4 +1,3 @@
-# streamlit run CO2_Violin_Interactive_Filtered_compact.py
 import io, csv
 import pandas as pd
 import numpy as np
@@ -8,7 +7,6 @@ import plotly.io as pio
 
 st.set_page_config(page_title="Venice CO₂ — Violin (Filtered)", layout="wide")
 
-# --- Dark UI (like your BoxPlot app) + white Plotly card ---
 st.markdown(
     """
 <style>
