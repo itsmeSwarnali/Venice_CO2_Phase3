@@ -1,5 +1,3 @@
-# X_Post_Boxen_compact.py
-# Boxen (Streamlit + Plotly) — compact version, styling aligned to ridgeline + main boxplot
 
 import io
 import numpy as np
@@ -10,7 +8,6 @@ from plotly.colors import qualitative
 
 st.set_page_config(page_title="X Post CO₂-Boxen", layout="centered")
 
-# ------------------ CSS (same spirit as your ridgeline / main boxplot) ------------------
 st.markdown(
     """
     <style>
