@@ -1,0 +1,66 @@
+stop_id,Air smell - quality,CO2 ppm,Connection with water,Environmental noise,Humidity %,Main landmark/s,Quantity of people,Temperature C,Time,Type of environment,"Vehicular traffic (cars, boats)",Wind,lat,lon
+0,average,389,high connection,medium,49,Stazione,A lot of people,9,13:10,"Public Area (square, public buildings)",A lot of traffic,high,45.4408363,12.3214728
+0.1,bad,407,high connection,high,52,Regione Veneto Palace,Average,9,13:13,"Public Area (square, public buildings)",A lot of traffic,high,45.4398088,12.3205554
+0.2,average,399,very high connection,medium,47,Canal,Average,11,13:16,"Public Area (square, public buildings)",Average traffic,high,45.4392705,12.3199224
+0.3,average,397,very high connection,medium,47,Calatrava bridge,A lot of people,10,13:17,"Public Area (square, public buildings)",Average traffic,high,45.4387962,12.3194182
+0.4,bad,409,No connection,high,48,Bus Station,Average,10,13:19,"Public Area (square, public buildings)",A lot of traffic,medium,45.4384311,12.3189247
+1,bad,388,No connection,medium,48,Car garage,No/Limited number of people,10,13:23,"Public Area (square, public buildings)",Average traffic,medium,45.4377122,12.3177928
+1.1,average,387,low connection,medium,49,Toilets,Average,11,13:26,"Public Area (square, public buildings)",Average traffic,low,45.4372643,12.3189247
+1.2,bad,408,high connection,high,46,Canal,Average,11,13:28,"Public Area (square, public buildings)",Average traffic,medium,45.4370384,12.3199224
+2,good,404,high connection,low,50,Rio Terà dei Pensieri,Average,9,13:30,Residential area (houses),No/Limited traffic,high,45.4365039,12.3200619
+2.1,good,393,average connection,medium,52,Fondamenta Rizzi,No/Limited number of people,8,13:33,Residential area (houses),No/Limited traffic,low,45.4355553,12.3203301
+2.2,good,392,high connection,low,52,Corte S. Marco,No/Limited number of people,8,13:35,Residential area (houses),No/Limited traffic,low,45.4350848,12.3204803
+2.3,good,399,high connection,medium,54,Ponte Rosso,No/Limited number of people,8,13:38,University Area (university buildings),No/Limited traffic,medium,45.4348853,12.3200297
+2.4,average,393,high connection,low,52,Fondamenta Rossa,No/Limited number of people,9,13:40,Residential area (houses),No/Limited traffic,low,45.4343432,12.3205447
+2.5,bad,381,very high connection,low,51,Fondamenta Foscarini,No/Limited number of people,10,13:41,University Area (university buildings),Average traffic,medium,45.4337785,12.3211026
+2.6,average,395,high connection,low,50,Ponte del Socorso,No/Limited number of people,9,13:43,University Area (university buildings),No/Limited traffic,medium,45.4333494,12.3200619
+2.7,average,387,very high connection,medium,50,Ponte de la Madalena,No/Limited number of people,10,13:45,University Area (university buildings),Average traffic,medium,45.4329278,12.3197079
+2.8,good,392,high connection,low,51,Calle dei Vechi,No/Limited number of people,10,13:47,Residential area (houses),No/Limited traffic,high,45.4324836,12.3201585
+2.9,average,388,high connection,medium,50,San Trovaso,No/Limited number of people,9,13:49,"Public Area (square, public buildings)",No/Limited traffic,low,45.4320243,12.3205984
+3,good,410,low connection,low,52,Campo Anzolo Rafael,No/Limited number of people,9,13:53,"Commercial Area (shops, hotels)",No/Limited traffic,low,45.4322351,12.3191392
+3.1,average,401,high connection,low,52,Fondamenta Barbarigo,No/Limited number of people,8,13:54,Residential area (houses),No/Limited traffic,high,45.4326869,12.3186672
+3.2,average,400,high connection,low,52,Fondamenta Rielo,No/Limited number of people,9,13:57,"Public Area (square, public buildings)",No/Limited traffic,high,45.4325363,12.3169613
+3.3,good,397,high connection,low,49,Fondamenta Tron,No/Limited number of people,9,13:59,"Commercial Area (shops, hotels)",No/Limited traffic,medium,45.432988,12.3166716
+4,good,390,very high connection,low,50,S. Nicolo Mendicoli,No/Limited number of people,9,14:01,"Public Area (square, public buildings)",No/Limited traffic,medium,45.4326304,12.3155558
+4.1,good,413,very high connection,low,52,Ponte delle Terese,No/Limited number of people,8,14:05,Residential area (houses),No/Limited traffic,low,45.4332666,12.3170471
+4.2,good,408,high connection,low,51,Fondamenta de la Rugheta,No/Limited number of people,8,14:06,Residential area (houses),No/Limited traffic,medium,45.4339065,12.3166394
+4.3,good,399,No connection,low,52,Campo de Sechi,No/Limited number of people,8,14:08,"Green Area (gardens, park)",No/Limited traffic,high,45.4337108,12.3156631
+4.4,good,396,No connection,low,52,Teatro S. Marta,No/Limited number of people,8,14:10,University Area (university buildings),No/Limited traffic,medium,45.4333419,12.3140216
+4.5,good,402,No connection,low,51,Calle dei Sechi,No/Limited number of people,8,14:13,University Area (university buildings),No/Limited traffic,high,45.4330482,12.3136032
+5,good,403,No connection,low,52,Calle Larga Magazen,No/Limited number of people,8,14:15,Residential area (houses),No/Limited traffic,medium,45.4330181,12.312777
+5.1,average,397,No connection,low,53,Calle Longhi,No/Limited number of people,8,14:16,Residential area (houses),No/Limited traffic,high,45.4330332,12.3117578
+6,bad,415,average connection,medium,54,Parcheggio S. Marta,No/Limited number of people,8,14:18,"Public Area (square, public buildings)",Average traffic,high,45.4333682,12.3113716
+6.1,average,400,low connection,low,54,Old S. Marta Church,No/Limited number of people,8,14:21,"Work Area (offices, artisans, and industry activities)",No/Limited traffic,low,45.432205,12.3116076
+6.2,good,412,low connection,low,53,Deposito S. Marta,No/Limited number of people,8,14:23,University Area (university buildings),No/Limited traffic,high,45.4319867,12.3130453
+7,average,405,high connection,medium,54,Banchina S. Marta,No/Limited number of people,7,14:25,"Work Area (offices, artisans, and industry activities)",No/Limited traffic,high,45.431422,12.3142791
+7.1,average,398,very high connection,medium,53,Port Area S. Marta,Average,8,14:28,"Public Area (square, public buildings)",Average traffic,high,45.4313919,12.3156416
+7.2,average,394,very high connection,high,52,Port Area S. Marta,Average,8,14:30,"Public Area (square, public buildings)",Average traffic,high,45.4314596,12.3168862
+7.3,average,391,high connection,medium,53,Porto di Venezia,No/Limited number of people,8,14:33,University Area (university buildings),No/Limited traffic,medium,45.4314822,12.3179001
+7.4,good,399,low connection,medium,51,Salita S. Basegio,No/Limited number of people,9,14:35,Residential area (houses),No/Limited traffic,high,45.431309,12.3193324
+8,average,409,very high connection,high,53,Terminal S. Basilio,Average,8,14:37,"Public Area (square, public buildings)",Average traffic,high,45.4309025,12.3202711
+8.1,average,397,very high connection,high,52,S. Basilio,Average,10,14:39,"Commercial Area (shops, hotels)",A lot of traffic,high,45.4306578,12.3215103
+8.2,average,384,very high connection,medium,44,Fondamenta Zattere,Average,13,14:42,University Area (university buildings),Average traffic,high,45.4302399,12.3234737
+9,average,385,very high connection,medium,42,Zattere,Average,12,14:45,University Area (university buildings),No/Limited traffic,medium,45.429871,12.3248899
+9.1,average,402,very high connection,high,45,S. Maria del Rosario,A lot of people,12,14:48,"Public Area (square, public buildings)",A lot of traffic,high,45.429246,12.3273522
+9.2,good,399,low connection,medium,42,Campo S. Agnese,Average,12,14:50,"Public Area (square, public buildings)",No/Limited traffic,medium,45.4297128,12.3276955
+9.3,average,390,No connection,high,45,Calle Larga Pisani,Average,10,14:52,"Commercial Area (shops, hotels)",No/Limited traffic,high,45.4305373,12.3283017
+10,average,408,very high connection,high,50,Ponte Accademia,A lot of people,8,14:56,"Public Area (square, public buildings)",A lot of traffic,high,45.4315311,12.328366
+10.1,average,421,low connection,high,55,Galerie Barteux,A lot of people,8,15:02,"Commercial Area (shops, hotels)",No/Limited traffic,low,45.4316441,12.327615
+10.2,average,398,high connection,high,55,Ponte Maravegie,Average,8,15:04,University Area (university buildings),Average traffic,medium,45.4316403,12.3269337
+10.3,good,410,No connection,medium,54,Sacca della Toletta,Average,8,15:07,"Commercial Area (shops, hotels)",No/Limited traffic,medium,45.4317533,12.3258609
+11,good,406,average connection,medium,54,Campo S. Barnaba,Average,8,15:09,"Commercial Area (shops, hotels)",No/Limited traffic,medium,45.4328901,12.3250455
+11.1,average,403,high connection,medium,55,Ponte dei Pugni,Average,8,15:12,"Commercial Area (shops, hotels)",No/Limited traffic,high,45.4330934,12.3243803
+11.2,average,409,No connection,medium,56,Rio Terà Canale,Average,8,15:16,"Commercial Area (shops, hotels)",No/Limited traffic,high,45.4339329,12.3242891
+11.3,average,398,No connection,high,55,Campo S. Margherita,A lot of people,8,15:18,"Commercial Area (shops, hotels)",No/Limited traffic,medium,45.4340307,12.3232967
+12,bad,401,No connection,high,53,Campo S. Margherita,A lot of people,7,15:21,"Commercial Area (shops, hotels)",No/Limited traffic,medium,45.4346218,12.3240477
+12.1,good,394,No connection,low,53,Calle de la Vida,No/Limited number of people,8,15:23,Residential area (houses),No/Limited traffic,low,45.4339818,12.3247612
+12.2,good,398,high connection,medium,52,Calle Foscari,Average,7,15:27,University Area (university buildings),No/Limited traffic,high,45.4346556,12.325936
+12.3,average,402,No connection,medium,53,Calle Larga Foscari,Average,7,15:29,University Area (university buildings),No/Limited traffic,high,45.435544,12.3261613
+13,good,428,low connection,medium,53,Dorsoduro,Average,7,15:30,"Commercial Area (shops, hotels)",No/Limited traffic,medium,45.4360183,12.3250669
+13.1,good,399,average connection,medium,53,Sotoportego de la Scuola,No/Limited number of people,8,15:32,"Public Area (square, public buildings)",No/Limited traffic,low,45.4364907,12.3249194
+13.2,good,397,No connection,low,52,Calle Drio l'Archivio,No/Limited number of people,7,15:34,Residential area (houses),No/Limited traffic,medium,45.4372793,12.3242408
+13.3,good,420,low connection,medium,52,Calle de le Chiovere,Average,7,15:38,"Commercial Area (shops, hotels)",No/Limited traffic,high,45.4379305,12.3234093
+13.4,good,390,average connection,low,52,S. Croce,No/Limited number of people,7,15:42,Residential area (houses),No/Limited traffic,medium,45.4387887,12.3236668
+13.5,average,400,No connection,medium,53,Calle Sechera,No/Limited number of people,7,15:44,Residential area (houses),No/Limited traffic,high,45.4394512,12.3230177
+14,average,393,high connection,medium,54,Fondamenta S. Simeon Piccolo,Average,7,15:45,"Public Area (square, public buildings)",Average traffic,high,45.4405917,12.3223633
+14.1,average,396,very high connection,high,54,Ponte degli Scalzi,A lot of people,7,15:48,"Public Area (square, public buildings)",Average traffic,medium,45.4411901,12.3227119
