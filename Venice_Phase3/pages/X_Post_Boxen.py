@@ -41,7 +41,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("CO₂ vs Vehicular Traffic (Boxen Plot -> X post)")
+st.title("CO₂ vs Air Smell Quality (Boxen Plot -> X post)")
 st.caption("Nested quantile boxes (letter-value).")
 
 # ------------------ robust CSV read (compact) ------------------
