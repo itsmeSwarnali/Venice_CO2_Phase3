@@ -1,9 +1,3 @@
-
-# Run:
-#   pip install -r requirements.txt
-#   streamlit run co2_map.py
-
-
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -13,10 +7,9 @@ from branca.colormap import LinearColormap
 
 import streamlit as st
 from streamlit_folium import st_folium
-#N:\CSIT\_3rd sem\HCI\_project\Venice_Phase3
 
 
-# -------------------- page setup (NO borders) --------------------
+# -------------------- page setup  --------------------
 st.set_page_config(page_title="Venice CO2 Anchor Map", layout="wide")
 
 st.markdown(
