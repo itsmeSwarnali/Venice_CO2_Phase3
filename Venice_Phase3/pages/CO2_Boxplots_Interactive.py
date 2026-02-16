@@ -130,7 +130,7 @@ flt_cols = [c for c in preferred if c in cols and c != x]
 f = df
 if flt_cols:
     with st.sidebar.expander("Filters (optional)", expanded=False):
-        st.caption("Filter the dataset (web-only richness). Then compare CO₂ distributions across your chosen X.")
+        st.caption("Filter the dataset. Then compare CO₂ distributions across your chosen X.")
         for c in flt_cols:
             s = f[c]
             num = _to_num(s)
