@@ -153,6 +153,7 @@ fdf = df.copy()
 with st.sidebar:
     st.markdown("### Filters")
     with st.expander("Filters (optional)", expanded=False):
+        st.caption("Filter the dataset. Then compare CO₂ distributions across your chosen X.")
         for col in present_filters:
             s = fdf[col].astype(str).str.strip().replace({"": np.nan, "nan": np.nan, "None": np.nan})
             opts = sorted(s.dropna().unique().tolist())
